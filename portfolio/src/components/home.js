@@ -1,10 +1,13 @@
 import React from 'react'
 
+import header from '../assests/header.png'
+
 function Home() {
 
     return(
-        <div>
-            <h1>Live</h1>
+        <div className='home-container'>
+            <img src={header} alt='thejohnwatt header' />
+            <button><a href='#about'>Explore</a></button>
         </div>
     )
 }
