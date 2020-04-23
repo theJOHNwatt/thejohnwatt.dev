@@ -1,0 +1,21 @@
+import React from 'react'
+
+import Logo from '../assests/white-logo.png'
+
+function Nav() {
+
+    return(
+        <div className='navbar'>
+            <nav >
+                
+                <a className='logo' href='#home'><img src={Logo} alt='jw logo'/></a>
+                <a className='links' href='#about'>ABOUT</a>
+                <a className='links' href='#projects'>PROJECTS</a>
+                <a className='links' href='#contact'>CONTACT</a>
+                <a>RESUME</a>
+            </nav>
+        </div>
+    )
+}
+
+export default Nav;
