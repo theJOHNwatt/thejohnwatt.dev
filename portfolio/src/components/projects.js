@@ -7,7 +7,7 @@ import React from 'react'
 function Projects() {
 
     return(
-        <div className='projects-container'>
+        <div id='projects' className='projects-container'>
             <div className='first'>
                 <div className='images'>
                     <img className='gif' src={citrics}  alt='citrics gif'/>
