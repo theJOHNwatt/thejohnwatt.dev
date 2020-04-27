@@ -27,7 +27,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
-  line-height: 1;
+  line-height: 1.4;
 }
 ol, ul {
 	list-style: none;
@@ -133,6 +133,7 @@ p{
   flex-direction: column;
   align-items: center;
   top: 200px;
+  margin-bottom: 300px;
 
   img {
     margin-bottom: 150px;
@@ -149,7 +150,7 @@ p{
     background: linear-gradient(-45deg, #1251c5, #252525);
     background-size: 400% 400%;
     animation: gradient 5s ease infinite;
-    transition: .5s;
+    // transition: .5s;
     box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.644);
   
   @keyframes gradient {
@@ -178,6 +179,41 @@ p{
 
 
 // about 
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 2.8rem;
+    color: rgb(32, 32, 32);
+    border-bottom: 6px solid rgb(1, 92, 171);
+    border-top: 6px solid rgb(1, 92, 171);
+  }
+
+  .aboutme {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+
+    .headshot-img {
+
+      img {
+        border-radius: 100%;
+        box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.37);
+      }
+    }
+
+    .about-info {
+      width: 50%;
+    }
+  }
+}
 
 
 // projects
