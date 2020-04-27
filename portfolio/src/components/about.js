@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Tech from './tech'
+
 import headshot from '../assests/johnwatt.jpg'
 
 function About() {
@@ -14,11 +16,10 @@ function About() {
                 </div>
                 <div className='about-info'>
                     
-                    <p>I write the best placeholder text, and I'm the biggest developer on the web by far... While that's mock-ups and this is politics, are they really so different? I’m the best thing that ever happened to placeholder text.
-                    When other websites give you text, they’re not sending the best. They’re not sending you, they’re sending words that have lots of problems and     they’re bringing those problems with us. They’re bringing mistakes.     They’re bringing misspellings. They’re typists… And some, I assume, are good words. Be careful, or I will spill the beans on your placeholder text.</  p>
+                    <p>Full Stack Web Developer that thrives in fast-paced work environments. Commited to learning new technologies to deliver quality, modern products. Competitive and self driven in any field working in to drive the highest results. Well versed in customer service and sales as well with multiple years in technology sales. </  p>
                 </div>
             </div>
-            
+            <Tech />
         </div>
     )
 }

@@ -6,7 +6,7 @@ function Home() {
     
 
     return(
-        <div className='home-container'>
+        <div id='home' className='home-container'>
             <div className='header-image'>
                 <img src={header} alt='John Watt' />
             </div>
