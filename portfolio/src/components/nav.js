@@ -12,7 +12,7 @@ function Nav() {
                 <a className='links' href='#about'>ABOUT</a>
                 <a className='links' href='#projects'>PROJECTS</a>
                 <a className='links' href='#contact'>CONTACT</a>
-                <a>RESUME</a>
+                <a href=''>RESUME</a>
             </nav>
         </div>
     )
