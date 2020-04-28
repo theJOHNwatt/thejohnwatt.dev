@@ -1,4 +1,5 @@
 import React from 'react'
+import Fade from 'react-reveal/Fade';
 
 import css from '../assets/css.png'
 import figma from '../assets/figma.png'
@@ -19,8 +20,12 @@ function Tech() {
 
     return(
         <div className='tech-container'>
+            <Fade bottom>
             <h1>SKILLS / TECHNOLOGIES</h1>
+            </Fade>
+            <Fade bottom cascade>
             <div className='tech-imgs'>
+                
                 <img src={css} alt='CSS3' title='CSS3' />
                 <img src={figma} alt='Figma' title='Figma' />
                 <img src={git} alt='Git' title='Git' />
@@ -35,8 +40,9 @@ function Tech() {
                 <img src={redux} alt='Redux' title='Redux' />
                 <img src={sass} alt='Sass' title='Sass' />
                 <img src={sql} alt='SqlLite3' title='SqlLite3' />
+                
             </div>
-            
+            </Fade>
         </div>
     )
 }
