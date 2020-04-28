@@ -2,13 +2,13 @@ import React from 'react'
 
 import Tech from './tech'
 
-import headshot from '../assests/johnwatt.jpg'
+import headshot from '../assets/johnwatt.jpg'
 
 function About() {
 
     return(
         <div id='about' className='about-container'>
-            <h1>ABOUT</h1>
+            <h1 >ABOUT</h1>
             <div className='aboutme'>
                 
                 <div className='headshot-img'>

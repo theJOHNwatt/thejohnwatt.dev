@@ -1,6 +1,6 @@
 import React from 'react'
 
-import header from '../assests/header.png'
+import header from '../assets/header.png'
 
 function Home() {
     
@@ -10,8 +10,8 @@ function Home() {
             <div className='header-image'>
                 <img src={header} alt='John Watt' />
             </div>
-            <div>
-            <button><a href='#about'>EXPLORE</a></button>
+            <div className='link'>
+            <a href='#about'><button>EXPLORE</button></a>
             </div>
         </div>
     )
