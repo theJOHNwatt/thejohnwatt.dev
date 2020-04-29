@@ -1,5 +1,5 @@
 import React from 'react'
-
+import ScrollAnimation from 'react-animate-on-scroll';
 
 import css from '../assets/css.png'
 import figma from '../assets/figma.png'
@@ -20,12 +20,12 @@ function Tech() {
 
     return(
         <div className='tech-container'>
-         
+         <ScrollAnimation animateIn="fadeIn" animateOnce='true'>
             <h1>SKILLS / TECHNOLOGIES</h1>
-            
+            </ScrollAnimation>
             
             <div className='tech-imgs'>
-                
+            <ScrollAnimation animateIn="fadeIn" animateOnce='true'>
                 <img src={css} alt='CSS3' title='CSS3' />
                 <img src={figma} alt='Figma' title='Figma' />
                 <img src={git} alt='Git' title='Git' />
@@ -40,9 +40,9 @@ function Tech() {
                 <img src={redux} alt='Redux' title='Redux' />
                 <img src={sass} alt='Sass' title='Sass' />
                 <img src={sql} alt='SqlLite3' title='SqlLite3' />
-                
+                </ScrollAnimation>
             </div>
-           <div id='projects'></div>
+           
         </div>
     )
 }
