@@ -11,15 +11,15 @@ function Home() {
         <div id='home' className='home-container'>
             
             <div className='header-image'>
-                <Fade big cascade>
+              
                 <img src={header} alt='John Watt' />
-                </Fade>
+      
             </div>
             
             <div className='link'>
             
-            <a href='#about'><Fade bottom>
-                <button>EXPLORE</button></Fade>
+            <a href='#about'>
+                <button>EXPLORE</button>
             </a>
             
             </div>

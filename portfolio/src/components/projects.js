@@ -7,8 +7,7 @@ function Projects() {
 
     return(
         <div id='projects' className='projects-container'>
-            <div>
-            <h1 className='projects-header'>PROJECTS</h1></div>
+            <h1 className='projects-header'>PROJECTS</h1>
             <div className='citrics'>
                 <div className='citrics-img'>
                     <img className='gif' src={citrics}  alt='citrics gif'/>
@@ -21,8 +20,8 @@ function Projects() {
                 <h3>TECHNOLOGIES USED</h3>
                 <p>React, Sass, Flask, Node, Knex, Postgres, Passportjs, AWS Elastic Beanstalk</p>
                 <div className='citrics-btn'>
-                <a href='https://v1.citrics.io/'><button>Visit</button></a>
-                <a href='https://github.com/Lambda-School-Labs/city-data-comparison-fe'><button>View Code</button></a>
+                <a target="_blank" href='https://v1.citrics.io/'><button>Visit</button></a>
+                <a target="_blank" href='https://github.com/Lambda-School-Labs/city-data-comparison-fe'><button>View Code</button></a>
                 </div>
                 </div>
             </div>
@@ -34,8 +33,8 @@ function Projects() {
                 <h3>TECHNOLOGIES USED</h3>
                 <p>React, Sass, React Bootstrap</p>
                 <div className='ayala-btn'>
-                <a href='https://ayalamedia.herokuapp.com/'><button>Visit</button></a>
-                <a href='https://github.com/theJOHNwatt/ayalamedia-portfolio'><button>View Code</button></a>
+                <a target="_blank" href='https://ayalamedia.herokuapp.com/'><button>Visit</button></a>
+                <a target="_blank" href='https://github.com/theJOHNwatt/ayalamedia-portfolio'><button>View Code</button></a>
                 </div>
                 </div>
                 <div className='ayala-img'>
@@ -53,8 +52,8 @@ function Projects() {
                 <h3>TECHNOLOGIES USED</h3>
                 <p>React, Sass, HTML Canvass, Python</p>
                 <div className='pycity-btn'>
-                <a href='https://pycity.netlify.app/'><button>Visit</button></a>
-                <a href='https://github.com/cs26-bw/FrontEnd'><button>View Code</button></a>
+                <a target="_blank" href='https://pycity.netlify.app/'><button>Visit</button></a>
+                <a target="_blank" href='https://github.com/cs26-bw/FrontEnd'><button>View Code</button></a>
                 </div>
                 </div>
             </div>
