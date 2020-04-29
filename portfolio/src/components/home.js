@@ -1,23 +1,28 @@
 import React from 'react'
+import ScrollAnimation from 'react-animate-on-scroll';
 
-import header from '../assests/header.png'
+
+import header from '../assets/header.png'
 
 function Home() {
-    const divOpen = "<div>"
-    const name = "<h1> Hi! My name is John Watt. </h1>"
-    const about = "<h2> Full Stack web developer </h2>"
-    const divClose = "</div>"
+    
 
     return(
-        <div className='home-container'>
-            {/* <img src={header} alt='thejohnwatt header' /> */}
-            <div className='css-typing'>
-                <h1>{divOpen}</h1>
-                <h1>{name}</h1>
-                <h1>{about}</h1>
-                <h1>{divClose}</h1>
+        <div id='home' className='home-container'>
+            
+            <div className='header-image'>
+            <ScrollAnimation animateIn="fadeIn" animateOnce='true'>
+                <img src={header} alt='John Watt' />
+                </ScrollAnimation>
             </div>
-            <button><a href='#about'>Explore</a></button>
+            
+            <div className='link'>
+            <ScrollAnimation animateIn="fadeIn" animateOnce='true'>
+            <a href='#about'>
+                <button>EXPLORE</button>
+            </a>
+            </ScrollAnimation>
+            </div>
         </div>
     )
 }

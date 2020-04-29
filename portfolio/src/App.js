@@ -1,6 +1,7 @@
 import React from 'react';
 import { Route } from 'react-router-dom'
 
+import Tech from './components/tech'
 import Home from './components/home'
 import About from './components/about'
 import Projects from './components/projects'
@@ -13,11 +14,12 @@ function App() {
   return (
     <div className="App">
 
-      <Nav />
-      <Route path='/' render={_ => <Home/>} />
-      <Route path='/' render={_ => <About/>} />
-      <Route path='/' render={_ => <Projects/>} />
-      <Route path='/' render={_ => <Contact/>} />
+      <Nav/>
+      <Route path='/' component={_ => <Home/>} />
+      <Route path='/' component={_ => <About/>} />
+      <Route path='/' component={_ => <Tech />} />
+      <Route path='/' component={_ => <Projects/>} />
+      <Route path='/' component={_ => <Contact/>} />
     </div>
   );
 }

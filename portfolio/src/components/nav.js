@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Logo from '../assests/white-logo.png'
+import Logo from '../assets/white-logo.png'
 
 function Nav() {
 
@@ -12,7 +12,7 @@ function Nav() {
                 <a className='links' href='#about'>ABOUT</a>
                 <a className='links' href='#projects'>PROJECTS</a>
                 <a className='links' href='#contact'>CONTACT</a>
-                <a>RESUME</a>
+                <a className='links' href=''>RESUME</a>
             </nav>
         </div>
     )
