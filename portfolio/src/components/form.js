@@ -13,7 +13,7 @@ class Form extends Component {
             //in here put the userID you got from emailjs 
             REACT_APP_EMAILJS_USERID: ' user_xa3zAGUXkOUzusVlZP5xw',
             //the template ID of the template you created in the emailjs
-            templateId: 'ayalamedia',
+            templateId: 'thejohnwatt',
             formSubmitted: false,
             feedback: 'Test'
         }
