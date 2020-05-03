@@ -6,7 +6,7 @@ import Fade from 'react-reveal/Fade';
 function Projects() {
 
     return(
-        <div id='projects' className='projects-container'>
+        <div className='projects-container'>
             <ScrollAnimation animateIn="fadeIn" animateOnce='true'>
             <h1 className='projects-header'>PROJECTS</h1>
             </ScrollAnimation>
@@ -27,8 +27,8 @@ function Projects() {
                 <p>React, Sass, Flask, Node, Knex, Postgres, Passportjs, AWS Elastic Beanstalk</p>
                 
                 <div className='citrics-btn'>
-                <a target="_blank" href='https://v1.citrics.io/'><button>Visit</button></a>
-                <a target="_blank" href='https://github.com/Lambda-School-Labs/city-data-comparison-fe'><button>View Code</button></a>
+                <a target="_blank" rel="noopener noreferrer" href='https://v1.citrics.io/'><button>Visit</button></a>
+                <a target="_blank" rel="noopener noreferrer"  href='https://github.com/Lambda-School-Labs/city-data-comparison-fe'><button>View Code</button></a>
                 </div>
                 </div>
             </div></Fade><Fade right>
@@ -43,8 +43,8 @@ function Projects() {
                 
                 <div className='ayala-btn'>
                 
-                <a target="_blank" href='https://ayalamedia.herokuapp.com/'><button>Visit</button></a>
-                <a target="_blank" href='https://github.com/theJOHNwatt/ayalamedia-portfolio'><button>View Code</button></a>
+                <a target="_blank" rel="noopener noreferrer"  href='https://ayalamedia.herokuapp.com/'><button>Visit</button></a>
+                <a target="_blank" rel="noopener noreferrer"  href='https://github.com/theJOHNwatt/ayalamedia-portfolio'><button>View Code</button></a>
                 
                 </div>
                 </div>
@@ -69,8 +69,8 @@ function Projects() {
                 
                 <div className='pycity-btn'>
                 
-                <a target="_blank" href='https://pycity.netlify.app/'><button>Visit</button></a>
-                <a target="_blank" href='https://github.com/cs26-bw/FrontEnd'><button>View Code</button></a>
+                <a target="_blank" rel="noopener noreferrer"  href='https://pycity.netlify.app/'><button>Visit</button></a>
+                <a target="_blank" rel="noopener noreferrer"  href='https://github.com/cs26-bw/FrontEnd'><button>View Code</button></a>
                 
                 </div>
                 </div>

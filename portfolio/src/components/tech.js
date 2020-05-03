@@ -42,7 +42,7 @@ function Tech() {
                 <img src={sql} alt='SqlLite3' title='SqlLite3' />
                 </ScrollAnimation>
             </div>
-           
+           <div id='projects' ></div>
         </div>
     )
 }
