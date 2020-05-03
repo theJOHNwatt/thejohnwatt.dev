@@ -11,7 +11,7 @@ class Form extends Component {
         super(props);
         this.state = {
             //in here put the userID you got from emailjs 
-            REACT_APP_EMAILJS_USERID: ' user_xa3zAGUXkOUzusVlZP5xw',
+            REACT_APP_EMAILJS_USERID: 'user_xa3zAGUXkOUzusVlZP5xw',
             //the template ID of the template you created in the emailjs
             templateId: 'thejohnwatt',
             formSubmitted: false,
@@ -72,7 +72,7 @@ class Form extends Component {
 
         return (
             <div>
-                <div>
+                <div className='contact-form'>
                     <form onSubmit={this.onSubmit}>
                         <div className='row1'>
                             <div>
@@ -91,7 +91,7 @@ class Form extends Component {
                             </div>
                             <div>
                                 <input id="phone" type="text" className="validate" ref="phone" />
-                                <p>phone number</p>
+                                <p>company</p>
                             </div>
                         </div>
                             <div className='text'>
