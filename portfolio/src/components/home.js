@@ -19,7 +19,7 @@ function Home() {
             <div className='link'>
             <ScrollAnimation animateIn="fadeIn" animateOnce='true'>
             <a href='#about'>
-                <button className='bounce-2'>EXPLORE</button>
+                <button className='button bounce-2'>EXPLORE</button>
             </a>
             </ScrollAnimation>
             </div>
